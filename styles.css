@@ -1,0 +1,73 @@
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+   
+    font-family: "Lucida Console", Times, serif;
+
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+h1{
+    justify-content: center;
+}
+
+#nonecontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+
+}
+#ntwocontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+}
+#nthreecontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+
+}
+#nfourcontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+}
+#nfivecontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+
+}
+#nsixcontainer{
+    border-style: solid !important;
+    border-radius: 25px !important;
+    border-width: thin;
+    border-color: #ffc720;
+}
+.card{
+    object-fit: cover !important;
+    border-color: #ffc720;
+    justify-content: center !important;
+}
+#aboutuss{
+    border-color: #ffc720 !important;
+    border-width: thin !important;
+    justify-content:center !important;
+    border-radius: 25px !important;
+}
