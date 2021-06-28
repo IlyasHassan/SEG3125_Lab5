@@ -76,3 +76,7 @@ h1{
 button{
     justify-content: center !important;
 }
+img{
+    width: 5%;
+    height: 5%;
+}
