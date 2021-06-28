@@ -243,7 +243,7 @@
             <div id = "nfivecontainer"class="col-sm-4 col-md-8 col-lg-4 text-center">
                 <p><strong>Choose an Appointment Date</strong></p>
 
-                <div class="datepicker date input-group p-0 shadow-sm">
+                <div class="datepicker date input-group p-0 shadow-sm" id=".datepicker">
                     <input type="text" placeholder="Choose a reservation date" class="form-control py-4 px-4" id="reservationDate">
                     <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div>
                 </div>
@@ -286,7 +286,7 @@
             
         
     </div>
-    
+
     <button type="submit" class="btn btn-primary">Submit</button>
     <div class="container-fluid">
         
@@ -340,7 +340,8 @@
 <script type="text/javascript">
     $('.datepicker').datepicker({
         clearBtn: true,
-        format: "dd/mm/yyyy"
+        format: "dd/mm/yyyy",
+        daysOfWeekDisabled: [0,6]
     });
 </script>
 
