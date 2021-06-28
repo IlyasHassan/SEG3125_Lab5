@@ -244,16 +244,12 @@
             <div id = "nfivecontainer"class="col-sm-4 col-md-8 col-lg-4 text-center">
                 <p><strong>Choose an Appointment Date</strong></p>
 
-                    <h2>Bootstrap Datetimepicker Disable Weekends Example - nicesnippets.com</h2>
+                <div class="datepicker date input-group p-0 shadow-sm">
+                    <input type="text" placeholder="Choose a reservation date" class="form-control py-4 px-4" id="reservationDate">
+                    <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div>
+                </div>
 
-                            <div class="form-group">
-                                <div class='input-group date' id='datetimepicker1'>
-                                    <input type='text' class="form-control" />
-                                    <span class="input-group-addon">
-                                        <span class="glyphicon glyphicon-calendar"></span>
-                                    </span>
-                                </div>
-                            </div>
+                            
 
                      
             </div>
@@ -340,10 +336,9 @@
 </div>
 
 <script type="text/javascript">
-    $(function () {
-        $('#datetimepicker1').datetimepicker({
-            daysOfWeekDisabled: [0,6]
-        });
+    $('.datepicker').datepicker({
+        clearBtn: true,
+        format: "dd/mm/yyyy"
     });
 </script>
 
