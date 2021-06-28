@@ -220,27 +220,25 @@
             </div>
             <div id = "nfivecontainer"class="col-sm-4 col-md-8 col-lg-4 text-center">
                 <p><strong>Choose an Appointment Date</strong></p>
-                <ul>
-                    <li>Focuses on massages and/or stretches which reduce joint pain</li>
-                    <li>50$/hour</li>
-                  </ul>
-                
-                <button type="button" class="btn btn-warning active">Set Date/Time</button>
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      
-                    
+                <div class="container">
+                    <div class="row">
+                       <div class='col-sm-6'>
+                          <div class="form-group">
+                             <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                             </div>
+                          </div>
+                       </div>
+                       <script type="text/javascript">
+                          $(function () {
+                              $('#datetimepicker1').datetimepicker();
+                          });
+                       </script>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Phone Number</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter phone number">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-                
+                 </div>
 
             </div>
             <div id = "nsixcontainer"class="col-sm-4 col-md-8 col-lg-4 text-center">
