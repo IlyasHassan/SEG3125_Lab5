@@ -10,6 +10,7 @@ p{
 .btn{
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: center !important;
 }
 ul {
     list-style-type: none;
@@ -70,4 +71,7 @@ h1{
     border-width: thin !important;
     justify-content:center !important;
     border-radius: 25px !important;
+}
+button{
+    justify-content: center !important;
 }
